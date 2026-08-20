@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="286" viewBox="0 0 1200 286" role="img" aria-label="CTF divisions: Crypto, OSINT, and Pwn" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <rect width="1200" height="286" rx="12" fill="#0b0d0f"/>
+  <rect x="1" y="1" width="1198" height="284" rx="11" fill="none" stroke="#d5d0c7" stroke-opacity=".7" stroke-width="2.5"/>
+  <path d="M400 20V266M800 20V266" stroke="#aaa59c" stroke-opacity=".55" stroke-width="2"/>
+  <g font-family="Consolas,'IBM Plex Mono',monospace">
+    <g transform="translate(34 30)">
+      <text x="0" y="30" fill="#d1182b" font-size="34" font-weight="700">A-01</text>
+      <text x="0" y="91" fill="#f5f1e8" font-family="Georgia,serif" font-size="59" font-weight="700">CRYPTO</text>
+      <path d="M0 108H330" stroke="#d1182b" stroke-width="4"/>
+      <text x="0" y="148" fill="#d7d2c9" font-size="22.5" font-weight="700">RSA · ECC · PRNG · HASH/MAC</text>
+      <text x="0" y="190" fill="#c8c4bc" font-size="21" font-weight="700">MODEL THE WEAKNESS</text>
+      <text x="0" y="236" fill="#f5f1e8" font-size="21" font-weight="700">MATH → PRIMITIVE → PROOF</text>
+    </g>
+    <g transform="translate(434 30)">
+      <text x="0" y="30" fill="#d1182b" font-size="34" font-weight="700">B-02</text>
+      <text x="0" y="91" fill="#f5f1e8" font-family="Georgia,serif" font-size="59" font-weight="700">OSINT</text>
+      <path d="M0 108H330" stroke="#d1182b" stroke-width="4"/>
+      <text x="0" y="148" fill="#d7d2c9" font-size="22.5" font-weight="700">SOURCES · MEDIA · METADATA</text>
+      <text x="0" y="190" fill="#c8c4bc" font-size="21" font-weight="700">CORRELATE THE EVIDENCE</text>
+      <text x="0" y="236" fill="#f5f1e8" font-size="21" font-weight="700">CLUE → PIVOT → ATTRIBUTION</text>
+    </g>
+    <g transform="translate(834 30)">
+      <text x="0" y="30" fill="#d1182b" font-size="34" font-weight="700">C-03</text>
+      <text x="0" y="91" fill="#f5f1e8" font-family="Georgia,serif" font-size="59" font-weight="700">PWN</text>
+      <path d="M0 108H330" stroke="#d1182b" stroke-width="4"/>
+      <text x="0" y="148" fill="#d7d2c9" font-size="22.5" font-weight="700">BINARY · STACK/HEAP · ROP</text>
+      <text x="0" y="190" fill="#c8c4bc" font-size="21" font-weight="700">CONTROL THE EXECUTION</text>
+      <text x="0" y="236" fill="#f5f1e8" font-size="21" font-weight="700">BUG → PRIMITIVE → EXPLOIT</text>
+    </g>
+  </g>
+</svg>
