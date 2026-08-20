@@ -36,23 +36,20 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top">
-      <sub><strong>01 / CRYPTOGRAPHY</strong></sub>
-      <h3>Crypto</h3>
-      <p>RSA · ECC · PRNG<br />Symmetric crypto · Hash/MAC<br />Python · SageMath</p>
-      <p><code>model → break → verify</code></p>
+    <td width="33.33%" align="center" valign="top">
+      <h3>🔐 Crypto</h3>
+      <p>RSA • ECC • PRNG<br />Classical ciphers • Hash/MAC<br />Python • SageMath</p>
+      <code>math → weakness → plaintext</code>
     </td>
-    <td width="33%" valign="top">
-      <sub><strong>02 / OPEN-SOURCE INTELLIGENCE</strong></sub>
-      <h3>OSINT</h3>
-      <p>Source correlation · Metadata<br />Image and video investigation<br />Timeline · Identity pivots</p>
-      <p><code>collect → pivot → corroborate</code></p>
+    <td width="33.34%" align="center" valign="top">
+      <h3>🛰️ OSINT</h3>
+      <p>Source correlation • Metadata<br />Image/video investigation<br />Timeline & identity pivots</p>
+      <code>clue → pivot → attribution</code>
     </td>
-    <td width="34%" valign="top">
-      <sub><strong>03 / BINARY EXPLOITATION</strong></sub>
-      <h3>Pwn</h3>
-      <p>Stack and heap analysis<br />ROP · Format strings<br />GDB · pwntools</p>
-      <p><code>bug → primitive → exploit</code></p>
+    <td width="33.33%" align="center" valign="top">
+      <h3>💥 Pwn</h3>
+      <p>Binary analysis • Stack/heap<br />ROP • Format strings<br />GDB • pwntools</p>
+      <code>bug → primitive → exploit</code>
     </td>
   </tr>
 </table>
