@@ -110,7 +110,7 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 </p>
 
 <p align="center">
-  <img width="100%" src="./assets/contact-pixel-snake-v2.svg" alt="Animated 30 by 15 pixel Snake grid" />
+  <img width="100%" src="./assets/contact-pixel-snake-v3.svg" alt="Animated 30 by 15 pixel Snake grid" />
 </p>
 
 <p align="center">
