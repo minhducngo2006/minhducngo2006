@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="85" viewBox="0 0 1200 85" role="img" aria-label="Section 01 Operator Record" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <rect width="1200" height="85" rx="11" fill="#0b0d0f"/>
+  <path d="M0 0H100L124 27V85H0Z" fill="#15181b"/>
+  <path d="M124 0H1200V85H150L124 60Z" fill="#f2eee5"/>
+  <text x="28" y="61" fill="#d1182b" font-family="Georgia,serif" font-size="54.4" font-weight="700">01</text>
+  <text x="170" y="56" fill="#060708" font-family="Georgia,serif" font-size="40.8" font-weight="700" letter-spacing=".3">OPERATOR RECORD</text>
+  <text x="1168" y="56" text-anchor="end" fill="#202326" font-family="Consolas,monospace" font-size="16.15" font-weight="700" letter-spacing=".8">IDENTITY // ACTIVE</text>
+  <path d="M170 71H1168" stroke="#b51224" stroke-width="3.4"/>
+</svg>

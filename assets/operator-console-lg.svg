@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="349" viewBox="0 0 1200 349" role="img" aria-label="Large Python operator record for Undertaker" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f2eee5" stroke-opacity=".055" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="349" rx="14" fill="#080a0c"/>
+  <rect width="1200" height="349" rx="14" fill="url(#grid)"/>
+  <rect x="1.5" y="1.5" width="1197" height="346" rx="12.5" fill="none" stroke="#d7d2c9" stroke-opacity=".72" stroke-width="3"/>
+  <rect x="0" y="0" width="18" height="349" rx="8" fill="#b51224"/>
+
+  <g font-family="'IBM Plex Mono','JetBrains Mono',Consolas,monospace">
+    <text x="44" y="41" fill="#d1182b" font-size="18.7" font-weight="700" letter-spacing="2">OPERATOR.PY // ACTIVE RECORD</text>
+    <text x="1156" y="41" text-anchor="end" fill="#d7d2c9" font-size="17" font-weight="700" letter-spacing="1.5">UTR-86-2006</text>
+    <path d="M44 56H1156" stroke="#d1182b" stroke-width="3"/>
+
+    <g font-size="26.35" font-weight="600">
+      <text x="44" y="95" fill="#f5f1e8"><tspan fill="#d1182b">operator</tspan><tspan fill="#d7d2c9"> = {</tspan></text>
+      <text x="82" y="134" fill="#f5f1e8"><tspan fill="#d1182b">"callsign"</tspan><tspan fill="#d7d2c9">: </tspan><tspan>"Undertaker"</tspan><tspan fill="#d7d2c9">,</tspan></text>
+      <text x="82" y="173" fill="#f5f1e8"><tspan fill="#d1182b">"role"</tspan><tspan fill="#d7d2c9">: </tspan><tspan>"Cybersecurity Student &amp; CTF Player"</tspan><tspan fill="#d7d2c9">,</tspan></text>
+      <text x="82" y="212" fill="#f5f1e8"><tspan fill="#d1182b">"focus"</tspan><tspan fill="#d7d2c9">: [</tspan><tspan>"Network", "Crypto", "OSINT", "Pwn"</tspan><tspan fill="#d7d2c9">],</tspan></text>
+      <text x="82" y="251" fill="#f5f1e8"><tspan fill="#d1182b">"mode"</tspan><tspan fill="#d7d2c9">: </tspan><tspan>"Evidence first"</tspan><tspan fill="#d7d2c9">,</tspan></text>
+      <text x="82" y="290" fill="#f5f1e8"><tspan fill="#d1182b">"mission"</tspan><tspan fill="#d7d2c9">: </tspan><tspan>"Build. Verify. Document."</tspan></text>
+      <text x="44" y="329" fill="#d7d2c9">}</text>
+    </g>
+
+    <rect x="66" y="309" width="15" height="25" fill="#d1182b">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
