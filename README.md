@@ -81,26 +81,34 @@ I explore how systems fail—and how to make them harder to break. My work sits 
   </ul>
 </details>
 
-## `ls -la featured_operation/`
+## `ls -la featured_operations/`
 
-<a href="https://github.com/minhducngo2006/networkprg_group1">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=minhducngo2006&repo=networkprg_group1&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=C9D1D9&description_lines_count=2" alt="Distributed System Monitor repository" />
-</a>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/minhducngo2006/ctf-crypto-handbook">CTF Crypto Handbook</a></h3>
+      <p>A practical field guide for CTF cryptography: recognize the primitive, model the weakness, build a solver, and verify the result.</p>
+      <p><code>Cryptography</code> <code>Python</code> <code>SageMath</code> <code>CTF</code></p>
+      <p><a href="https://github.com/minhducngo2006/ctf-crypto-handbook">Browse the handbook →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/minhducngo2006/networkprg_group1">Distributed System Monitor</a></h3>
+      <p>A C++20 multi-host monitor with an ncurses dashboard, Linux agents, alerts, Prometheus endpoints, and Docker support.</p>
+      <p><code>C++20</code> <code>Linux</code> <code>Networking</code> <code>Docker</code></p>
+      <p><a href="https://github.com/minhducngo2006/networkprg_group1">Open the repository →</a></p>
+    </td>
+  </tr>
+</table>
 
-**Distributed System Monitor** — a C++20, btop++-style multi-host monitoring system with a real-time ncurses dashboard, Linux agents, configurable alerts, HTTP/Prometheus endpoints, Docker support, and secure deployment guidance.
-
-## `./github_metrics --live`
+## `./github_activity --live`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=minhducngo2006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=C9D1D9&ring_color=00FF88" alt="Undertaker GitHub stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=minhducngo2006&hide_border=true&background=0D1117&ring=00FF88&fire=00FF88&currStreakLabel=00FF88&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" alt="Undertaker GitHub streak" />
+  <img width="62%" src="https://streak-stats.demolab.com?user=minhducngo2006&hide_border=true&background=0D1117&ring=00FF88&fire=00FF88&currStreakLabel=00FF88&sideLabels=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=7D8590" alt="Undertaker GitHub contribution streak" />
 </p>
 
 <p align="center">
-  <img width="54%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhducngo2006&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF88&text_color=C9D1D9&langs_count=8" alt="Most used languages" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=minhducngo2006&bg_color=0D1117&color=C9D1D9&line=00FF88&point=E6FFF6&area=true&area_color=00FF88&hide_border=true" alt="Undertaker GitHub contribution activity graph" />
 </p>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=minhducngo2006&bg_color=0D1117&color=C9D1D9&line=00FF88&point=E6FFF6&area=true&area_color=00FF88&hide_border=true" alt="GitHub contribution activity graph" />
 
 ## `cat contact.txt`
 
