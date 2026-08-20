@@ -83,11 +83,23 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 
 ## `ls -la featured_operation/`
 
-<a href="https://github.com/minhducngo2006/networkprg_group1">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=minhducngo2006&repo=networkprg_group1&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=C9D1D9&description_lines_count=2" alt="Distributed System Monitor repository" />
-</a>
+<p align="center">
+  <a href="https://github.com/minhducngo2006/ctf-crypto-handbook"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=minhducngo2006&repo=ctf-crypto-handbook&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=C9D1D9&description_lines_count=2" alt="CTF Crypto Handbook repository" /></a>
+  <a href="https://github.com/minhducngo2006/networkprg_group1"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=minhducngo2006&repo=networkprg_group1&hide_border=true&bg_color=0D1117&title_color=00FF88&icon_color=00FF88&text_color=C9D1D9&description_lines_count=2" alt="Distributed System Monitor repository" /></a>
+</p>
 
-**Distributed System Monitor** — a C++20, btop++-style multi-host monitoring system with a real-time ncurses dashboard, Linux agents, configurable alerts, HTTP/Prometheus endpoints, Docker support, and secure deployment guidance.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🔐 CTF Crypto Handbook</strong><br />
+      An evidence-first field manual covering Crypto triage, encoding, XOR, block ciphers, RSA, ECC, hashes, PRNGs, lattices, LWE, and ZKP—with reusable Python/Sage solver templates.
+    </td>
+    <td width="50%" valign="top">
+      <strong>🛰️ Distributed System Monitor</strong><br />
+      A C++20, btop++-style multi-host monitoring system with a real-time ncurses dashboard, Linux agents, alerts, HTTP/Prometheus endpoints, Docker support, and secure deployment guidance.
+    </td>
+  </tr>
+</table>
 
 ## `./github_metrics --live`
 
