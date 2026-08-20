@@ -10,6 +10,24 @@
     <clipPath id="title-field">
       <rect x="475" y="68" width="700" height="170" rx="6"/>
     </clipPath>
+    <clipPath id="title-reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="492" y="76" width="670" height="140">
+        <animate attributeName="x"
+                 values="492;492;826.75;492;492;826.75;492;492"
+                 keyTimes="0;.28;.34;.40;.62;.68;.74;1"
+                 dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="width"
+                 values="670;670;.5;670;670;.5;670;670"
+                 keyTimes="0;.28;.34;.40;.62;.68;.74;1"
+                 dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="glitch-slice-a" clipPathUnits="userSpaceOnUse">
+      <path d="M488 103H1168V119H488ZM488 148H1168V165H488ZM488 187H1168V199H488Z"/>
+    </clipPath>
+    <clipPath id="glitch-slice-b" clipPathUnits="userSpaceOnUse">
+      <path d="M488 84H1168V98H488ZM488 127H1168V141H488ZM488 169H1168V181H488Z"/>
+    </clipPath>
     <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b0d0f"/>
       <stop offset="1" stop-color="#171a1d"/>
@@ -112,10 +130,81 @@
          preserveAspectRatio="xMidYMid slice" clip-path="url(#title-field)"
          opacity=".22"/>
 
-  <!-- text-only scan: fades in place instead of sliding across the card -->
-  <text x="492" y="198" fill="#050607" font-family="Georgia,'Times New Roman',serif" font-size="129.2" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER
-    <animate attributeName="fill-opacity" values="1;.76;1" keyTimes="0;.5;1" dur="6.4s" repeatCount="indefinite"/>
-  </text>
+  <!-- UNDERTAKER / EIGHTY SIX glitch-crop title loop -->
+  <g clip-path="url(#title-reveal)"
+     font-family="Georgia,'Times New Roman',serif"
+     font-size="129.2" font-weight="700" letter-spacing="1">
+    <!-- stable fallback layer; UNDERTAKER remains visible when SMIL is unavailable -->
+    <g id="title-core">
+      <text x="492" y="198" fill="#050607" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER
+        <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="492" y="198" fill="#050607" opacity="0" textLength="670" lengthAdjust="spacingAndGlyphs">EIGHTY SIX
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0;0 0;-3 0;4 0;-2 0;0 0;0 0;-3 0;4 0;-2 0;0 0;0 0"
+                        keyTimes="0;.275;.292;.308;.325;.34;.615;.632;.648;.665;.68;1"
+                        dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- restrained red displacement slices, visible only around each word swap -->
+    <g clip-path="url(#glitch-slice-a)" transform="translate(6 0)" opacity="0">
+      <text x="492" y="198" fill="#b51224" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER
+        <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="492" y="198" fill="#b51224" opacity="0" textLength="670" lengthAdjust="spacingAndGlyphs">EIGHTY SIX
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <animate attributeName="opacity"
+               values="0;0;.72;0;.58;0;0;.72;0;.58;0;0"
+               keyTimes="0;.275;.292;.305;.322;.34;.615;.632;.645;.662;.68;1"
+               calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- pale counter-slices create the cropped signal tear without moving the word -->
+    <g clip-path="url(#glitch-slice-b)" transform="translate(-5 0)" opacity="0">
+      <text x="492" y="198" fill="#f2eee5" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER
+        <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="492" y="198" fill="#f2eee5" opacity="0" textLength="670" lengthAdjust="spacingAndGlyphs">EIGHTY SIX
+        <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.34;.68;1"
+                 calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <animate attributeName="opacity"
+               values="0;0;.42;0;.34;0;0;.42;0;.34;0;0"
+               keyTimes="0;.282;.299;.312;.329;.34;.622;.639;.652;.669;.68;1"
+               calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- crop brackets close to the centre, swap the word, then open again -->
+  <g id="title-crop-brackets" fill="none" stroke="#b51224"
+     stroke-width="2.4" stroke-linecap="square" opacity="0">
+    <g>
+      <path d="M493 82H476V213H493"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0;0 0;343 0;0 0;0 0;343 0;0 0;0 0"
+                        keyTimes="0;.28;.34;.40;.62;.68;.74;1"
+                        dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M1162 82H1179V213H1162"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0;0 0;-344 0;0 0;0 0;-344 0;0 0;0 0"
+                        keyTimes="0;.28;.34;.40;.62;.68;.74;1"
+                        dur="12s" repeatCount="indefinite"/>
+    </g>
+    <animate attributeName="opacity"
+             values="0;0;1;1;0;0;1;1;0;0"
+             keyTimes="0;.25;.28;.40;.43;.59;.62;.74;.77;1"
+             dur="12s" repeatCount="indefinite"/>
+  </g>
   <text x="1164" y="205" text-anchor="end" fill="#17191b" fill-opacity=".08" font-family="Georgia,'Times New Roman',serif" font-size="184" font-weight="700">86</text>
   <g fill="#b51224">
     <rect x="476" y="18" width="5" height="5"/>
