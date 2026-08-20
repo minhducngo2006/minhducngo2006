@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="Section 05 Activity Telemetry" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-  <rect width="1200" height="100" rx="12" fill="#0b0d0f"/>
-  <path d="M0 0H100L132 32V100H0Z" fill="#15181b"/>
-  <path d="M132 0H1200V100H162L132 70Z" fill="#f2eee5"/>
-  <text x="28" y="72" fill="#d1182b" font-family="Georgia,serif" font-size="64" font-weight="700">05</text>
-  <text x="180" y="66" fill="#060708" font-family="Georgia,serif" font-size="48" font-weight="700" letter-spacing=".3">ACTIVITY TELEMETRY</text>
-  <text x="1168" y="66" text-anchor="end" fill="#202326" font-family="Consolas,monospace" font-size="19" font-weight="700" letter-spacing=".8">LIVE // GITHUB</text>
-  <path d="M180 84H1168" stroke="#b51224" stroke-width="4"/>
-</svg>

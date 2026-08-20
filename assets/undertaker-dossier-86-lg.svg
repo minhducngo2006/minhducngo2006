@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="340" viewBox="0 0 1200 340" preserveAspectRatio="none" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
   <title id="title">Undertaker — field operator dossier</title>
   <desc id="desc">An original graphite and ivory military dossier banner for a cybersecurity and CTF profile.</desc>
 
@@ -43,23 +43,23 @@
 
   <!-- left dossier rail -->
   <g font-family="'IBM Plex Mono','JetBrains Mono',Consolas,monospace">
-    <text x="26" y="50" fill="#d1182b" font-size="31" font-weight="700" letter-spacing="1.5">86</text>
-    <text x="80" y="45" fill="#eeeae1" font-size="16" font-weight="700" letter-spacing="1.2">PERSONAL MARK // 86-2006</text>
+    <text x="26" y="49" fill="#d1182b" font-size="26.5" font-weight="700" letter-spacing="1.5">86</text>
+    <text x="74" y="44" fill="#eeeae1" font-size="13.6" font-weight="700" letter-spacing="1.2">PERSONAL MARK // 86-2006</text>
     <path d="M25 60H401" stroke="#d1182b" stroke-width="2"/>
     <path d="M25 64H192" stroke="#ece8df" stroke-opacity=".22"/>
 
-    <text x="22" y="304" fill="#d7d2c9" font-size="14" font-weight="700" letter-spacing="1" transform="rotate(-90 22 304)">UNIT DOSSIER // ACTIVE FILE</text>
+    <text x="22" y="300" fill="#d7d2c9" font-size="12" font-weight="700" letter-spacing="1" transform="rotate(-90 22 300)">UNIT DOSSIER // ACTIVE FILE</text>
     <rect x="25" y="92" width="4" height="22" fill="#d1182b"/>
     <rect x="25" y="119" width="4" height="8" fill="#ece8df" opacity=".75"/>
     <rect x="25" y="132" width="4" height="8" fill="#ece8df" opacity=".35"/>
 
-    <text x="283" y="108" fill="#d7d2c9" font-size="16" font-weight="700" letter-spacing="1">FIELD UNIT</text>
-    <text x="283" y="140" fill="#f5f1e8" font-size="22" font-weight="700" letter-spacing="1.8">OPERATOR</text>
-    <text x="283" y="169" fill="#d7d2c9" font-size="16" font-weight="700" letter-spacing="1">DESIGNATION</text>
-    <text x="283" y="199" fill="#d1182b" font-size="22" font-weight="700" letter-spacing="1.8">UTR-86-2006</text>
+    <text x="283" y="108" fill="#d7d2c9" font-size="13.6" font-weight="700" letter-spacing="1">FIELD UNIT</text>
+    <text x="283" y="138" fill="#f5f1e8" font-size="18.7" font-weight="700" letter-spacing="1.8">OPERATOR</text>
+    <text x="283" y="167" fill="#d7d2c9" font-size="13.6" font-weight="700" letter-spacing="1">DESIGNATION</text>
+    <text x="283" y="196" fill="#d1182b" font-size="18.7" font-weight="700" letter-spacing="1.8">UTR-86-2006</text>
     <path d="M283 203H404" stroke="#ece8df" stroke-opacity=".17"/>
-    <text x="283" y="232" fill="#d7d2c9" font-size="14" font-weight="700" letter-spacing=".8">CLEARANCE // CTF</text>
-    <text x="283" y="258" fill="#d7d2c9" font-size="14" font-weight="700" letter-spacing=".8">STATE // LEARNING</text>
+    <text x="283" y="229" fill="#d7d2c9" font-size="12" font-weight="700" letter-spacing=".8">CLEARANCE // CTF</text>
+    <text x="283" y="253" fill="#d7d2c9" font-size="12" font-weight="700" letter-spacing=".8">STATE // LEARNING</text>
     <g fill="#d1182b">
       <path d="M283 264h18l-7 8h-18z"/>
       <path d="M306 264h18l-7 8h-18z" opacity=".72"/>
@@ -82,24 +82,24 @@
 
   <!-- right editorial field -->
   <g font-family="'IBM Plex Mono','JetBrains Mono',Consolas,monospace">
-    <text x="496" y="51" fill="#b51224" font-size="19" font-weight="700" letter-spacing="2.4">CTF OPERATIONS</text>
-    <text x="1172" y="51" text-anchor="end" fill="#17191b" font-size="16" font-weight="700" letter-spacing="1.2">FIELD FILE // 086</text>
+    <text x="496" y="49" fill="#b51224" font-size="16.2" font-weight="700" letter-spacing="2.4">CTF OPERATIONS</text>
+    <text x="1172" y="49" text-anchor="end" fill="#17191b" font-size="13.6" font-weight="700" letter-spacing="1.2">FIELD FILE // 086</text>
     <path d="M496 61H1172" stroke="#1b1d1f" stroke-opacity=".55"/>
     <path d="M496 61H616" stroke="#b51224" stroke-width="3"/>
 
-    <text x="496" y="252" fill="#090b0d" font-size="28" font-weight="700" letter-spacing="5">CRYPTO</text>
-    <text x="665" y="252" fill="#b51224" font-size="26" font-weight="700">/</text>
-    <text x="704" y="252" fill="#090b0d" font-size="28" font-weight="700" letter-spacing="5">OSINT</text>
-    <text x="850" y="252" fill="#b51224" font-size="26" font-weight="700">/</text>
-    <text x="889" y="252" fill="#090b0d" font-size="28" font-weight="700" letter-spacing="5">PWN</text>
+    <text x="496" y="248" fill="#090b0d" font-size="23.8" font-weight="700" letter-spacing="5">CRYPTO</text>
+    <text x="665" y="248" fill="#b51224" font-size="22.1" font-weight="700">/</text>
+    <text x="704" y="248" fill="#090b0d" font-size="23.8" font-weight="700" letter-spacing="5">OSINT</text>
+    <text x="850" y="248" fill="#b51224" font-size="22.1" font-weight="700">/</text>
+    <text x="889" y="248" fill="#090b0d" font-size="23.8" font-weight="700" letter-spacing="5">PWN</text>
 
     <path d="M496 266H1172" stroke="#17191b" stroke-opacity=".55" stroke-width="2"/>
     <path d="M496 279H1126L1108 317H496Z" fill="#e8e3d9" stroke="#17191b" stroke-opacity=".7" stroke-width="2"/>
-    <text x="520" y="305" fill="#101214" font-size="19" font-weight="700" letter-spacing="1.6">OBSERVE</text>
-    <text x="655" y="305" fill="#b51224" font-size="18">/</text>
-    <text x="690" y="305" fill="#101214" font-size="19" font-weight="700" letter-spacing="1.6">MODEL</text>
-    <text x="800" y="305" fill="#b51224" font-size="18">/</text>
-    <text x="836" y="305" fill="#101214" font-size="19" font-weight="700" letter-spacing="1.6">PROVE</text>
+    <text x="520" y="304" fill="#101214" font-size="16.2" font-weight="700" letter-spacing="1.6">OBSERVE</text>
+    <text x="655" y="304" fill="#b51224" font-size="15.3">/</text>
+    <text x="690" y="304" fill="#101214" font-size="16.2" font-weight="700" letter-spacing="1.6">MODEL</text>
+    <text x="800" y="304" fill="#b51224" font-size="15.3">/</text>
+    <text x="836" y="304" fill="#101214" font-size="16.2" font-weight="700" letter-spacing="1.6">PROVE</text>
     <path d="M1028 279H1142L1124 317H1010Z" fill="#111315"/>
     <path d="M1050 288h22l-8 18h-22zM1078 288h22l-8 18h-22zM1106 288h22l-8 18h-22z" fill="#b51224"/>
   </g>
@@ -132,7 +132,7 @@
     <animate attributeName="opacity" values=".04;.32;.04" dur="7s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="492" y="202" fill="#050607" font-family="Georgia,'Times New Roman',serif" font-size="152" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER</text>
+  <text x="492" y="198" fill="#050607" font-family="Georgia,'Times New Roman',serif" font-size="129.2" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER</text>
   <text x="1164" y="205" text-anchor="end" fill="#17191b" fill-opacity=".08" font-family="Georgia,'Times New Roman',serif" font-size="184" font-weight="700">86</text>
   <g fill="#b51224">
     <rect x="476" y="18" width="5" height="5"/>

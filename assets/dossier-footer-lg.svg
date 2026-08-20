@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="109" viewBox="0 0 1200 109" role="img" aria-label="End of Undertaker field dossier" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <rect width="1200" height="109" rx="10" fill="#0b0d0f"/>
+  <path d="M0 0H1200V10H0Z" fill="#d1182b"/>
+  <path d="M40 60H1160" stroke="#d5d0c7" stroke-opacity=".55" stroke-width="2.55"/>
+  <text x="40" y="48.5" fill="#f5f1e8" font-family="Consolas,monospace" font-size="17.85" font-weight="700" letter-spacing="1">END OF FIELD DOSSIER // KEEP LEARNING // KEEP DOCUMENTING</text>
+  <text x="1160" y="91" text-anchor="end" fill="#d1182b" font-family="Georgia,serif" font-size="37.4" font-weight="700">86-2006</text>
+  <g fill="#d1182b">
+    <path d="M40 75h29l-9 19H31z"/><path d="M76 75h29l-9 19H67z" opacity=".65"/><path d="M112 75h29l-9 19H103z" opacity=".32"/>
+  </g>
+</svg>
