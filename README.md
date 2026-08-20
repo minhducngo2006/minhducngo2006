@@ -34,22 +34,22 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 
 ## `./ctf_focus --list`
 
-<table width="100%">
+<table width="100%" align="center">
   <tr>
     <td width="33.33%" align="center" valign="top">
       <h3>🔐 Crypto</h3>
       <p>RSA • ECC • PRNG<br />Classical ciphers • Hash/MAC<br />Python • SageMath</p>
-      <code>math → weakness → plaintext</code>
+      <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;math&nbsp;→&nbsp;weakness&nbsp;→&nbsp;plaintext&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
     </td>
     <td width="33.34%" align="center" valign="top">
       <h3>🛰️ OSINT</h3>
       <p>Source correlation • Metadata<br />Image/video investigation<br />Timeline & identity pivots</p>
-      <code>clue → pivot → attribution</code>
+      <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clue&nbsp;→&nbsp;pivot&nbsp;→&nbsp;attribution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
     </td>
     <td width="33.33%" align="center" valign="top">
       <h3>💥 Pwn</h3>
       <p>Binary analysis • Stack/heap<br />ROP • Format strings<br />GDB • pwntools</p>
-      <code>bug → primitive → exploit</code>
+      <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bug&nbsp;→&nbsp;primitive&nbsp;→&nbsp;exploit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>
     </td>
   </tr>
 </table>
