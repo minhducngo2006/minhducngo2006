@@ -106,6 +106,11 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 
 <p align="center">
   <a href="https://github.com/minhducngo2006"><img src="https://img.shields.io/badge/GitHub-minhducngo2006-0D1117?style=for-the-badge&logo=github&logoColor=00FF88" alt="GitHub profile" /></a>
+  <a href="mailto:minhpticc@gmail.com"><img src="https://img.shields.io/badge/Gmail-minhpticc%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF88" alt="Email minhpticc@gmail.com" /></a>
+</p>
+
+<p align="center">
+  <img width="100%" src="./assets/contact-pixel-snake.svg" alt="Animated 30 by 15 pixel Snake grid" />
 </p>
 
 <p align="center">
