@@ -1,0 +1,62 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/generate-contribution-snake.yml"
+
+jobs:
+  generate:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate contribution-grid Snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#00b37a
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00FF88
+
+      - name: Upload generated SVGs
+        uses: actions/upload-artifact@v4
+        with:
+          name: contribution-snake
+          path: dist
+          retention-days: 1
+
+  publish:
+    needs: generate
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download generated SVGs
+        uses: actions/download-artifact@v4
+        with:
+          name: contribution-snake
+          path: dist
+
+      - name: Publish only the generated SVGs to output
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init
+          git checkout -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git commit -m "chore: update contribution snake"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin output

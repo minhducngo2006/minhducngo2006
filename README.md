@@ -110,7 +110,11 @@ I explore how systems fail—and how to make them harder to break. My work sits 
 </p>
 
 <p align="center">
-  <img width="100%" src="./assets/contact-pixel-snake-v3.svg" alt="Animated 30 by 15 pixel Snake grid" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minhducngo2006/minhducngo2006/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minhducngo2006/minhducngo2006/output/github-contribution-grid-snake.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/minhducngo2006/minhducngo2006/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution-grid Snake animation" />
+  </picture>
 </p>
 
 <p align="center">
