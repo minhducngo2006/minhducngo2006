@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/undertaker-dossier-86.svg" alt="Undertaker field operator dossier" />
+  <img width="100%" src="./assets/undertaker-dossier-86-sharp.svg" alt="Undertaker field operator dossier" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-0B0D0F?style=for-the-badge&labelColor=B51224" alt="Learning and building" />
 </p>
 
-<img width="100%" src="./assets/section-01-operator.svg" alt="Section 01 — Operator record" />
+<img width="100%" src="./assets/section-01-operator-sharp.svg" alt="Section 01 — Operator record" />
 
 <table width="100%">
   <tr>
@@ -28,11 +28,11 @@ I study how systems fail and how to make them harder to break. My current work c
 
 > **Field rule:** collect evidence → isolate the primitive → verify the result → document the path.
 
-<img width="100%" src="./assets/section-02-divisions.svg" alt="Section 02 — CTF divisions" />
+<img width="100%" src="./assets/section-02-divisions-sharp.svg" alt="Section 02 — CTF divisions" />
 
-<img width="100%" src="./assets/ctf-divisions.svg" alt="Crypto, OSINT, and Pwn divisions" />
+<img width="100%" src="./assets/ctf-divisions-sharp.svg" alt="Crypto, OSINT, and Pwn divisions" />
 
-<img width="100%" src="./assets/section-03-loadout.svg" alt="Section 03 — Technical loadout" />
+<img width="100%" src="./assets/section-03-loadout-sharp.svg" alt="Section 03 — Technical loadout" />
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,linux,git,github,docker,vscode&theme=dark" alt="Programming and platform toolkit" />
@@ -59,7 +59,7 @@ I study how systems fail and how to make them harder to break. My current work c
   </ul>
 </details>
 
-<img width="100%" src="./assets/section-04-operations.svg" alt="Section 04 — Operations archive" />
+<img width="100%" src="./assets/section-04-operations-sharp.svg" alt="Section 04 — Operations archive" />
 
 <table width="100%">
   <tr>
@@ -98,7 +98,7 @@ I study how systems fail and how to make them harder to break. My current work c
 
 <p align="right"><sub>TRAINING RECORD // <a href="https://github.com/minhducngo2006/pp2025">USTH ADVANCED PYTHON 2025</a></sub></p>
 
-<img width="100%" src="./assets/section-05-telemetry.svg" alt="Section 05 — Live telemetry" />
+<img width="100%" src="./assets/section-05-telemetry-sharp.svg" alt="Section 05 — Live telemetry" />
 
 <p align="center">
   <img width="62%" src="https://streak-stats.demolab.com?user=minhducngo2006&hide_border=true&background=0B0D0F&ring=D1182B&fire=D1182B&currStreakLabel=D1182B&sideLabels=DCD7CC&currStreakNum=F2EEE5&sideNums=F2EEE5&dates=8B8E91" alt="Undertaker GitHub contribution streak" />
@@ -116,7 +116,7 @@ I study how systems fail and how to make them harder to break. My current work c
   </picture>
 </p>
 
-<img width="100%" src="./assets/section-06-contact.svg" alt="Section 06 — Secure channel" />
+<img width="100%" src="./assets/section-06-contact-sharp.svg" alt="Section 06 — Secure channel" />
 
 <p align="center">
   <a href="https://github.com/minhducngo2006"><img src="https://img.shields.io/badge/GitHub-minhducngo2006-0B0D0F?style=for-the-badge&logo=github&logoColor=F2EEE5&labelColor=B51224" alt="GitHub profile" /></a>
@@ -127,4 +127,4 @@ I study how systems fail and how to make them harder to break. My current work c
   <sub>AUTHORIZED ENVIRONMENTS ONLY // LEARN · VERIFY · DOCUMENT</sub>
 </p>
 
-<img width="100%" src="./assets/dossier-footer.svg" alt="End of Undertaker field dossier" />
+<img width="100%" src="./assets/dossier-footer-sharp.svg" alt="End of Undertaker field dossier" />
