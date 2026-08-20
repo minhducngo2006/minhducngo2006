@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:050807,45:073B2A,100:00FF88&text=UNDERTAKER&fontColor=E8FFF6&fontSize=64&fontAlignY=38&desc=CYBERSECURITY%20%7C%20CTF%20PLAYER&descAlignY=58&descSize=18&animation=fadeIn" alt="Undertaker cybersecurity banner" />
+  <img width="100%" src="./assets/undertaker-banner.svg" alt="Undertaker — cybersecurity, crypto, OSINT, and pwn" />
 </p>
 
 <p align="center">
