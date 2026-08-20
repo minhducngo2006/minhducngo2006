@@ -4,6 +4,12 @@
   <desc id="desc">An original graphite and ivory military dossier banner for a cybersecurity and CTF profile.</desc>
 
   <defs>
+    <clipPath id="card-clip">
+      <rect width="1200" height="340" rx="18" ry="18"/>
+    </clipPath>
+    <clipPath id="title-field">
+      <rect x="475" y="68" width="700" height="170" rx="6"/>
+    </clipPath>
     <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b0d0f"/>
       <stop offset="1" stop-color="#171a1d"/>
@@ -31,14 +37,14 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="340" rx="16" fill="url(#dark)"/>
-  <rect width="455" height="340" rx="16" fill="url(#dark)"/>
-  <rect width="455" height="340" rx="16" fill="url(#dark-grid)"/>
-  <path d="M444 0H1200V340H424L454 304V36Z" fill="url(#paper)"/>
-  <path d="M444 0H1200V340H424L454 304V36Z" fill="url(#paper-grid)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#dark)"/>
+  <rect width="455" height="340" rx="18" fill="url(#dark)"/>
+  <rect width="455" height="340" rx="18" fill="url(#dark-grid)"/>
+  <path d="M444 0H1200V340H424L454 304V36Z" fill="url(#paper)" clip-path="url(#card-clip)"/>
+  <path d="M444 0H1200V340H424L454 304V36Z" fill="url(#paper-grid)" clip-path="url(#card-clip)"/>
   <path d="M444 0L466 0L476 12L462 36V303L431 340H407L440 300V40L424 24Z" fill="#090b0c"/>
 
-  <rect x="1" y="1" width="1198" height="338" rx="15" fill="none" stroke="#d4cfc5" stroke-opacity=".82" stroke-width="2.5"/>
+  <rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#d4cfc5" stroke-opacity=".82" stroke-width="2.5"/>
   <path d="M22 22H407M488 22H1178M22 318H391M456 318H1178" fill="none" stroke="#aaa59c" stroke-opacity=".58" stroke-width="1.5"/>
 
   <!-- left dossier rail -->
@@ -49,10 +55,6 @@
     <path d="M25 64H192" stroke="#ece8df" stroke-opacity=".22"/>
 
     <text x="22" y="300" fill="#d7d2c9" font-size="12" font-weight="700" letter-spacing="1" transform="rotate(-90 22 300)">UNIT DOSSIER // ACTIVE FILE</text>
-    <rect x="25" y="92" width="4" height="22" fill="#d1182b"/>
-    <rect x="25" y="119" width="4" height="8" fill="#ece8df" opacity=".75"/>
-    <rect x="25" y="132" width="4" height="8" fill="#ece8df" opacity=".35"/>
-
     <text x="283" y="108" fill="#d7d2c9" font-size="13.6" font-weight="700" letter-spacing="1">FIELD UNIT</text>
     <text x="283" y="138" fill="#f5f1e8" font-size="18.7" font-weight="700" letter-spacing="1.8">OPERATOR</text>
     <text x="283" y="167" fill="#d7d2c9" font-size="13.6" font-weight="700" letter-spacing="1">DESIGNATION</text>
@@ -104,35 +106,45 @@
     <path d="M1050 288h22l-8 18h-22zM1078 288h22l-8 18h-22zM1106 288h22l-8 18h-22z" fill="#b51224"/>
   </g>
 
-  <!-- original abstract mechanical drafting, not a franchise asset -->
-  <g fill="none" stroke="#17191b" stroke-opacity=".14" stroke-width="1.5">
-    <circle cx="1042" cy="156" r="78"/>
-    <circle cx="1042" cy="156" r="51"/>
-    <path d="M948 156H1136M1042 62V250M976 90l132 132M1108 90L976 222"/>
-    <path d="M1125 78h35v35M1160 228v35h-35" stroke-opacity=".3" stroke-width="2"/>
-    <animateTransform attributeName="transform" type="rotate" from="0 1042 156" to="360 1042 156" dur="24s" repeatCount="indefinite"/>
+  <!-- XM2 Reginleif technical silhouette: static geometry, no orbit or rotation -->
+  <g id="xm2-reginleif" clip-path="url(#title-field)" fill="none"
+     stroke="#17191b" stroke-width="1.7" stroke-linecap="round"
+     stroke-linejoin="round" opacity=".15">
+    <!-- dorsal 88 mm smoothbore cannon and mount -->
+    <path d="M849 108L866 82H916L934 109"/>
+    <path d="M887 82L1112 47M890 89L1117 55M1112 47L1132 49L1117 55"/>
+    <path d="M873 78L912 72L927 83L914 96H869Z"/>
+    <path d="M858 96L841 112M928 96L949 116"/>
+
+    <!-- angular armored cockpit -->
+    <path d="M768 126L827 98L926 103L982 132L961 176L907 196L812 188L760 154Z"/>
+    <path d="M798 129L842 111L915 116L951 136L934 163L895 178L824 170L789 149Z"/>
+    <path d="M827 98L842 111M926 103L915 116M760 154L789 149M982 132L951 136"/>
+    <path d="M821 137H926L909 157H810Z" fill="#17191b" fill-opacity=".07"/>
+    <path d="M846 119L858 132H897L910 118M839 174L850 187M917 174L907 193"/>
+
+    <!-- four high-mobility articulated legs -->
+    <path d="M785 153L731 176L682 218L622 235M731 176L711 205L682 218"/>
+    <path d="M823 176L786 201L752 234L704 241M786 201L777 221"/>
+    <path d="M950 158L1003 179L1055 216L1120 232M1003 179L1021 205L1055 216"/>
+    <path d="M912 179L950 202L982 233L1030 241M950 202L959 222"/>
+    <path d="M607 236H673L656 247H590ZM688 241H765L747 252H675Z"/>
+    <path d="M1103 232H1165L1180 243H1118ZM969 241H1045L1061 252H987Z"/>
+
+    <!-- joints, blade housings and sparse panel marks -->
+    <circle cx="731" cy="176" r="7"/><circle cx="786" cy="201" r="6"/>
+    <circle cx="1003" cy="179" r="7"/><circle cx="950" cy="202" r="6"/>
+    <path d="M647 221L620 205M1092 217L1121 199M696 210L672 197M1040 208L1065 195"/>
+    <path d="M782 121L756 104H722M965 119L992 101H1027" stroke-dasharray="4 7"/>
+  </g>
+  <g clip-path="url(#title-field)" fill="none" stroke="#b51224" stroke-width="2" opacity=".22">
+    <path d="M811 137H836M925 137H950M869 82H893"/>
   </g>
 
-  <!-- original mecha-style telemetry silhouette -->
-  <g transform="translate(1038 153)" fill="none" stroke="#17191b" stroke-opacity=".20" stroke-width="2.5">
-    <path d="M-55-55L-26-76H25L57-54L48-16L66 4L47 48L18 67H-20L-49 48L-67 4L-48-17Z"/>
-    <path d="M-45-20L-20-35H20L45-20L33 10L14 25H-14L-34 10Z"/>
-    <path d="M-26-8H26L17 7H-17Z" fill="#b51224" fill-opacity=".34" stroke="none">
-      <animate attributeName="fill-opacity" values=".16;.48;.16" dur="2.8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-18 27L-9 43H9L18 27M-55-55L-76-34M57-54L78-33M-48 48L-79 72M47 48L79 72"/>
-    <path d="M-92 83L-50 58M92 83L50 58M-92 83H-28M92 83H28"/>
-    <circle cx="0" cy="-4" r="86" stroke-dasharray="4 11" stroke-opacity=".48">
-      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="16s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <rect x="468" y="72" width="2" height="162" fill="#b51224" opacity="0">
-    <animate attributeName="x" values="468;1168;468" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".04;.32;.04" dur="7s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="492" y="198" fill="#050607" font-family="Georgia,'Times New Roman',serif" font-size="129.2" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER</text>
+  <!-- text-only scan: fades in place instead of sliding across the card -->
+  <text x="492" y="198" fill="#050607" font-family="Georgia,'Times New Roman',serif" font-size="129.2" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER
+    <animate attributeName="fill-opacity" values="1;.76;1" keyTimes="0;.5;1" dur="6.4s" repeatCount="indefinite"/>
+  </text>
   <text x="1164" y="205" text-anchor="end" fill="#17191b" fill-opacity=".08" font-family="Georgia,'Times New Roman',serif" font-size="184" font-weight="700">86</text>
   <g fill="#b51224">
     <rect x="476" y="18" width="5" height="5"/>
