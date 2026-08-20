@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-  <strong>CYBERSECURITY STUDENT&nbsp;&nbsp;·&nbsp;&nbsp;CTF PLAYER&nbsp;&nbsp;·&nbsp;&nbsp;NETWORK SECURITY</strong><br />
-  <sub>Crypto / OSINT / Pwn — observe the failure, model the weakness, prove the result.</sub>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=21&duration=2600&pause=850&color=D1182B&center=true&vCenter=true&width=900&height=72&lines=Cybersecurity+Student+%2F%2F+Network+Security;CTF+Operator+%2F%2F+Crypto+%2F+OSINT+%2F+Pwn;Observe+the+failure.+Model+the+weakness.+Prove+the+result." alt="Animated Undertaker operator introduction" />
+  </a>
 </p>
 
 <p align="center">
@@ -15,14 +16,15 @@
 
 <img width="100%" src="./assets/section-01-operator-sharp.svg" alt="Section 01 — Operator record" />
 
-<table width="100%">
-  <tr>
-    <td width="25%"><sub>CALLSIGN</sub><br /><strong>Undertaker</strong></td>
-    <td width="25%"><sub>ROLE</sub><br /><strong>Security Student</strong></td>
-    <td width="25%"><sub>PRIMARY THEATER</sub><br /><strong>CTF / Networks</strong></td>
-    <td width="25%"><sub>OPERATING MODE</sub><br /><strong>Evidence first</strong></td>
-  </tr>
-</table>
+```python
+operator = {
+    "callsign": "Undertaker",
+    "role": "Cybersecurity Student & CTF Player",
+    "focus": ["Network Security", "Cryptography", "OSINT", "Pwn"],
+    "operating_mode": "Evidence first",
+    "current_mission": "Turn every solved challenge into reusable knowledge."
+}
+```
 
 I study how systems fail and how to make them harder to break. My current work combines network security, reproducible CTF solving, technical documentation, and small systems projects.
 
