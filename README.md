@@ -35,13 +35,13 @@
 </p>
 
 <p align="center">
-  <img height="34" src="https://img.shields.io/badge/Kali_Linux-0B0D0F?style=for-the-badge&logo=kalilinux&logoColor=F2EEE5&labelColor=B51224" alt="Kali Linux" />
-  <img height="34" src="https://img.shields.io/badge/Wireshark-0B0D0F?style=for-the-badge&logo=wireshark&logoColor=F2EEE5&labelColor=B51224" alt="Wireshark" />
-  <img height="34" src="https://img.shields.io/badge/Burp_Suite-0B0D0F?style=for-the-badge&logo=burpsuite&logoColor=F2EEE5&labelColor=B51224" alt="Burp Suite" />
-  <img height="34" src="https://img.shields.io/badge/Ghidra-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Ghidra" />
-  <img height="34" src="https://img.shields.io/badge/GDB-0B0D0F?style=for-the-badge&logo=gnu&logoColor=F2EEE5&labelColor=B51224" alt="GDB" />
-  <img height="34" src="https://img.shields.io/badge/pwntools-0B0D0F?style=for-the-badge&logo=python&logoColor=F2EEE5&labelColor=B51224" alt="pwntools" />
-  <img height="34" src="https://img.shields.io/badge/Nmap-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Nmap" />
+  <img height="34" src="https://img.shields.io/badge/Kali_Linux-0B0D0F?style=for-the-badge&logo=kalilinux&logoColor=FFFFFF&labelColor=557C94" alt="Kali Linux" />
+  <img height="34" src="https://img.shields.io/badge/Wireshark-0B0D0F?style=for-the-badge&logo=wireshark&logoColor=FFFFFF&labelColor=1679A7" alt="Wireshark" />
+  <img height="34" src="https://img.shields.io/badge/Burp_Suite-0B0D0F?style=for-the-badge&logo=burpsuite&logoColor=FFFFFF&labelColor=FF6633" alt="Burp Suite" />
+  <img height="34" src="https://img.shields.io/badge/Ghidra-B71C1C?style=for-the-badge&logoColor=FFFFFF" alt="Ghidra" />
+  <img height="34" src="https://img.shields.io/badge/GDB-0B0D0F?style=for-the-badge&logo=gnu&logoColor=FFFFFF&labelColor=A42E2B" alt="GDB" />
+  <img height="34" src="https://img.shields.io/badge/pwntools-0B0D0F?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=3776AB" alt="pwntools" />
+  <img height="34" src="https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logoColor=FFFFFF" alt="Nmap" />
 </p>
 
 <details>
