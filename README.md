@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=25.5&duration=2600&pause=850&color=D1182B&center=true&vCenter=true&width=1000&height=88&lines=Cybersecurity+Student+%2F%2F+Network+Security;CTF+Operator+%2F%2F+Crypto+%2F+OSINT+%2F+Pwn;Observe+the+failure.+Model+the+weakness.+Prove+the+result." alt="Animated Undertaker operator introduction" />
+    <img width="100%" src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=26&duration=2600&pause=850&color=D1182B&center=true&vCenter=true&width=1000&height=88&lines=Cybersecurity+Student+%2F%2F+Network+Security;CTF+Operator+%2F%2F+Crypto+%2F+OSINT+%2F+Pwn;Observe+the+failure.+Model+the+weakness.+Prove+the+result." alt="Animated Undertaker operator introduction" />
   </a>
 </p>
 
