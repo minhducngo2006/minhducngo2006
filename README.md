@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/undertaker-dossier-86-96ca8ce8.svg" alt="Undertaker field operator dossier" />
+  <img width="100%" src="./assets/undertaker-dossier-86-b17b8811.svg" alt="Undertaker field operator dossier" />
 </p>
 
 <p align="center">
