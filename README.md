@@ -1,53 +1,47 @@
 <p align="center">
-  <img width="100%" src="./assets/undertaker-dossier-86-sharp.svg" alt="Undertaker field operator dossier" />
+  <img width="100%" src="./assets/undertaker-dossier-86-xl.svg" alt="Undertaker field operator dossier" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=21&duration=2600&pause=850&color=D1182B&center=true&vCenter=true&width=900&height=72&lines=Cybersecurity+Student+%2F%2F+Network+Security;CTF+Operator+%2F%2F+Crypto+%2F+OSINT+%2F+Pwn;Observe+the+failure.+Model+the+weakness.+Prove+the+result." alt="Animated Undertaker operator introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=30&duration=2600&pause=850&color=D1182B&center=true&vCenter=true&width=1000&height=104&lines=Cybersecurity+Student+%2F%2F+Network+Security;CTF+Operator+%2F%2F+Crypto+%2F+OSINT+%2F+Pwn;Observe+the+failure.+Model+the+weakness.+Prove+the+result." alt="Animated Undertaker operator introduction" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=minhducngo2006&label=PROFILE+VIEWS&color=B51224&style=for-the-badge" alt="Profile views" />
-  <a href="https://github.com/minhducngo2006?tab=followers"><img src="https://img.shields.io/github/followers/minhducngo2006?label=FOLLOWERS&style=for-the-badge&color=0B0D0F&labelColor=B51224" alt="GitHub followers" /></a>
-  <img src="https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-0B0D0F?style=for-the-badge&labelColor=B51224" alt="Learning and building" />
+  <img height="40" src="https://komarev.com/ghpvc/?username=minhducngo2006&label=PROFILE+VIEWS&color=B51224&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/minhducngo2006?tab=followers"><img height="40" src="https://img.shields.io/github/followers/minhducngo2006?label=FOLLOWERS&style=for-the-badge&color=0B0D0F&labelColor=B51224" alt="GitHub followers" /></a>
+  <img height="40" src="https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-0B0D0F?style=for-the-badge&labelColor=B51224" alt="Learning and building" />
 </p>
 
-<img width="100%" src="./assets/section-01-operator-sharp.svg" alt="Section 01 — Operator record" />
+<img width="100%" src="./assets/section-01-operator-xl.svg" alt="Section 01 — Operator record" />
 
-```python
-operator = {
-    "callsign": "Undertaker",
-    "role": "Cybersecurity Student & CTF Player",
-    "focus": ["Network Security", "Cryptography", "OSINT", "Pwn"],
-    "operating_mode": "Evidence first",
-    "current_mission": "Turn every solved challenge into reusable knowledge."
-}
-```
+<img width="100%" src="./assets/operator-console-xl.svg" alt="Python operator record for Undertaker" />
 
-I study how systems fail and how to make them harder to break. My current work combines network security, reproducible CTF solving, technical documentation, and small systems projects.
+## I study how systems fail—and how to make them harder to break.
 
-> **Field rule:** collect evidence → isolate the primitive → verify the result → document the path.
+## Network security · reproducible CTF solving · technical documentation · systems projects.
 
-<img width="100%" src="./assets/section-02-divisions-sharp.svg" alt="Section 02 — CTF divisions" />
+> ## Field rule: collect evidence → isolate the primitive → verify the result → document the path.
 
-<img width="100%" src="./assets/ctf-divisions-sharp.svg" alt="Crypto, OSINT, and Pwn divisions" />
+<img width="100%" src="./assets/section-02-divisions-xl.svg" alt="Section 02 — CTF divisions" />
 
-<img width="100%" src="./assets/section-03-loadout-sharp.svg" alt="Section 03 — Technical loadout" />
+<img width="100%" src="./assets/ctf-divisions-xl.svg" alt="Crypto, OSINT, and Pwn divisions" />
+
+<img width="100%" src="./assets/section-03-loadout-xl.svg" alt="Section 03 — Technical loadout" />
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,linux,git,github,docker,vscode&theme=dark" alt="Programming and platform toolkit" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Kali_Linux-0B0D0F?style=for-the-badge&logo=kalilinux&logoColor=F2EEE5&labelColor=B51224" alt="Kali Linux" />
-  <img src="https://img.shields.io/badge/Wireshark-0B0D0F?style=for-the-badge&logo=wireshark&logoColor=F2EEE5&labelColor=B51224" alt="Wireshark" />
-  <img src="https://img.shields.io/badge/Burp_Suite-0B0D0F?style=for-the-badge&logo=burpsuite&logoColor=F2EEE5&labelColor=B51224" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Ghidra-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Ghidra" />
-  <img src="https://img.shields.io/badge/GDB-0B0D0F?style=for-the-badge&logo=gnu&logoColor=F2EEE5&labelColor=B51224" alt="GDB" />
-  <img src="https://img.shields.io/badge/pwntools-0B0D0F?style=for-the-badge&logo=python&logoColor=F2EEE5&labelColor=B51224" alt="pwntools" />
-  <img src="https://img.shields.io/badge/Nmap-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Nmap" />
+  <img height="40" src="https://img.shields.io/badge/Kali_Linux-0B0D0F?style=for-the-badge&logo=kalilinux&logoColor=F2EEE5&labelColor=B51224" alt="Kali Linux" />
+  <img height="40" src="https://img.shields.io/badge/Wireshark-0B0D0F?style=for-the-badge&logo=wireshark&logoColor=F2EEE5&labelColor=B51224" alt="Wireshark" />
+  <img height="40" src="https://img.shields.io/badge/Burp_Suite-0B0D0F?style=for-the-badge&logo=burpsuite&logoColor=F2EEE5&labelColor=B51224" alt="Burp Suite" />
+  <img height="40" src="https://img.shields.io/badge/Ghidra-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Ghidra" />
+  <img height="40" src="https://img.shields.io/badge/GDB-0B0D0F?style=for-the-badge&logo=gnu&logoColor=F2EEE5&labelColor=B51224" alt="GDB" />
+  <img height="40" src="https://img.shields.io/badge/pwntools-0B0D0F?style=for-the-badge&logo=python&logoColor=F2EEE5&labelColor=B51224" alt="pwntools" />
+  <img height="40" src="https://img.shields.io/badge/Nmap-0B0D0F?style=for-the-badge&logoColor=F2EEE5&labelColor=B51224" alt="Nmap" />
 </p>
 
 <details>
@@ -61,21 +55,21 @@ I study how systems fail and how to make them harder to break. My current work c
   </ul>
 </details>
 
-<img width="100%" src="./assets/section-04-operations-sharp.svg" alt="Section 04 — Operations archive" />
+<img width="100%" src="./assets/section-04-operations-xl.svg" alt="Section 04 — Operations archive" />
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <sub>OPERATION 01 // CRYPTO</sub>
-      <h3><a href="https://github.com/minhducngo2006/ctf-crypto-handbook">CTF Crypto Handbook</a></h3>
-      <p>An 11-chapter field guide for recognizing primitives, modeling weaknesses, building solvers, and verifying flags.</p>
+      <h2><a href="https://github.com/minhducngo2006/ctf-crypto-handbook">CTF Crypto Handbook</a></h2>
+      <h2>11 chapters for recognizing primitives, building solvers, and verifying flags.</h2>
       <p><code>Python</code> <code>SageMath</code> <code>CryptoHack</code> <code>CTF</code></p>
       <p><a href="https://github.com/minhducngo2006/ctf-crypto-handbook">OPEN FIELD GUIDE →</a></p>
     </td>
     <td width="50%" valign="top">
       <sub>OPERATION 02 // SYSTEMS</sub>
-      <h3><a href="https://github.com/minhducngo2006/networkprg_group1">Distributed System Monitor</a></h3>
-      <p>A C++20 multi-host monitor with an ncurses dashboard, Linux agents, alerts, Prometheus endpoints, and Docker support.</p>
+      <h2><a href="https://github.com/minhducngo2006/networkprg_group1">Distributed System Monitor</a></h2>
+      <h2>C++20 multi-host monitoring with Linux agents, alerts, Prometheus, and Docker.</h2>
       <p><code>C++20</code> <code>Linux</code> <code>Networking</code> <code>Docker</code></p>
       <p><a href="https://github.com/minhducngo2006/networkprg_group1">OPEN SYSTEM →</a></p>
     </td>
@@ -83,15 +77,15 @@ I study how systems fail and how to make them harder to break. My current work c
   <tr>
     <td width="50%" valign="top">
       <sub>OPERATION 03 // MCP HOST</sub>
-      <h3><a href="https://github.com/minhducngo2006/botquanganh_mcp">BotQuangAnh MCP Runbook</a></h3>
-      <p>A Vietnamese quick-start and operations reference for installing, running, and securing an MCP host environment.</p>
+      <h2><a href="https://github.com/minhducngo2006/botquanganh_mcp">BotQuangAnh MCP Runbook</a></h2>
+      <h2>Vietnamese quick-start for installing, running, and securing an MCP host.</h2>
       <p><code>MCP</code> <code>Runbook</code> <code>Security</code> <code>Vietnamese</code></p>
       <p><a href="https://github.com/minhducngo2006/botquanganh_mcp">OPEN RUNBOOK →</a></p>
     </td>
     <td width="50%" valign="top">
       <sub>OPERATION 04 // OPEN SOURCE</sub>
-      <h3><a href="https://github.com/sherlock-project/sherlock/pull/3081">Sherlock PR #3081</a></h3>
-      <p>Fixes Instapaper false positives by probing profile data and detecting the SPA fallback returned for nonexistent users.</p>
+      <h2><a href="https://github.com/sherlock-project/sherlock/pull/3081">Sherlock PR #3081</a></h2>
+      <h2>Fixes Instapaper false positives by detecting its fallback response.</h2>
       <p><code>OSINT</code> <code>Python</code> <code>F+ PASS</code> <code>F− PASS</code></p>
       <p><a href="https://github.com/sherlock-project/sherlock/pull/3081">UNDER REVIEW →</a></p>
     </td>
@@ -100,10 +94,10 @@ I study how systems fail and how to make them harder to break. My current work c
 
 <p align="right"><sub>TRAINING RECORD // <a href="https://github.com/minhducngo2006/pp2025">USTH ADVANCED PYTHON 2025</a></sub></p>
 
-<img width="100%" src="./assets/section-05-telemetry-sharp.svg" alt="Section 05 — Live telemetry" />
+<img width="100%" src="./assets/section-05-telemetry-xl.svg" alt="Section 05 — Live telemetry" />
 
 <p align="center">
-  <img width="62%" src="https://streak-stats.demolab.com?user=minhducngo2006&hide_border=true&background=0B0D0F&ring=D1182B&fire=D1182B&currStreakLabel=D1182B&sideLabels=DCD7CC&currStreakNum=F2EEE5&sideNums=F2EEE5&dates=8B8E91" alt="Undertaker GitHub contribution streak" />
+  <img width="100%" src="https://streak-stats.demolab.com?user=minhducngo2006&hide_border=true&background=0B0D0F&ring=D1182B&fire=D1182B&currStreakLabel=D1182B&sideLabels=DCD7CC&currStreakNum=F2EEE5&sideNums=F2EEE5&dates=8B8E91" alt="Undertaker GitHub contribution streak" />
 </p>
 
 <p align="center">
@@ -118,15 +112,15 @@ I study how systems fail and how to make them harder to break. My current work c
   </picture>
 </p>
 
-<img width="100%" src="./assets/section-06-contact-sharp.svg" alt="Section 06 — Secure channel" />
+<img width="100%" src="./assets/section-06-contact-xl.svg" alt="Section 06 — Secure channel" />
 
 <p align="center">
-  <a href="https://github.com/minhducngo2006"><img src="https://img.shields.io/badge/GitHub-minhducngo2006-0B0D0F?style=for-the-badge&logo=github&logoColor=F2EEE5&labelColor=B51224" alt="GitHub profile" /></a>
-  <a href="mailto:minhpticc@gmail.com"><img src="https://img.shields.io/badge/Gmail-minhpticc%40gmail.com-0B0D0F?style=for-the-badge&logo=gmail&logoColor=F2EEE5&labelColor=B51224" alt="Email minhpticc@gmail.com" /></a>
+  <a href="https://github.com/minhducngo2006"><img height="40" src="https://img.shields.io/badge/GitHub-minhducngo2006-0B0D0F?style=for-the-badge&logo=github&logoColor=F2EEE5&labelColor=B51224" alt="GitHub profile" /></a>
+  <a href="mailto:minhpticc@gmail.com"><img height="40" src="https://img.shields.io/badge/Gmail-minhpticc%40gmail.com-0B0D0F?style=for-the-badge&logo=gmail&logoColor=F2EEE5&labelColor=B51224" alt="Email minhpticc@gmail.com" /></a>
 </p>
 
 <p align="center">
   <sub>AUTHORIZED ENVIRONMENTS ONLY // LEARN · VERIFY · DOCUMENT</sub>
 </p>
 
-<img width="100%" src="./assets/dossier-footer-sharp.svg" alt="End of Undertaker field dossier" />
+<img width="100%" src="./assets/dossier-footer-xl.svg" alt="End of Undertaker field dossier" />
