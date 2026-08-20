@@ -104,16 +104,36 @@
     <path d="M1050 284h22l-8 14h-22zM1078 284h22l-8 14h-22zM1106 284h22l-8 14h-22z" fill="#b51224"/>
   </g>
 
-  <text x="492" y="188" fill="#0a0c0e" font-family="Georgia,'Times New Roman',serif" font-size="108" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER</text>
-  <text x="1164" y="205" text-anchor="end" fill="#17191b" fill-opacity=".045" font-family="Georgia,'Times New Roman',serif" font-size="184" font-weight="700">86</text>
-
   <!-- original abstract mechanical drafting, not a franchise asset -->
   <g fill="none" stroke="#17191b" stroke-opacity=".07">
     <circle cx="1042" cy="156" r="78"/>
     <circle cx="1042" cy="156" r="51"/>
     <path d="M948 156H1136M1042 62V250M976 90l132 132M1108 90L976 222"/>
     <path d="M1125 78h35v35M1160 228v35h-35" stroke-opacity=".3" stroke-width="2"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 1042 156" to="360 1042 156" dur="24s" repeatCount="indefinite"/>
   </g>
+
+  <!-- original mecha-style telemetry silhouette -->
+  <g transform="translate(1038 153)" fill="none" stroke="#17191b" stroke-opacity=".085" stroke-width="2">
+    <path d="M-55-55L-26-76H25L57-54L48-16L66 4L47 48L18 67H-20L-49 48L-67 4L-48-17Z"/>
+    <path d="M-45-20L-20-35H20L45-20L33 10L14 25H-14L-34 10Z"/>
+    <path d="M-26-8H26L17 7H-17Z" fill="#b51224" fill-opacity=".34" stroke="none">
+      <animate attributeName="fill-opacity" values=".16;.48;.16" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-18 27L-9 43H9L18 27M-55-55L-76-34M57-54L78-33M-48 48L-79 72M47 48L79 72"/>
+    <path d="M-92 83L-50 58M92 83L50 58M-92 83H-28M92 83H28"/>
+    <circle cx="0" cy="-4" r="86" stroke-dasharray="4 11" stroke-opacity=".48">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="16s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="468" y="72" width="2" height="162" fill="#b51224" opacity="0">
+    <animate attributeName="x" values="468;1168;468" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.14;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="492" y="188" fill="#0a0c0e" font-family="Georgia,'Times New Roman',serif" font-size="108" font-weight="700" letter-spacing="1" textLength="670" lengthAdjust="spacingAndGlyphs">UNDERTAKER</text>
+  <text x="1164" y="205" text-anchor="end" fill="#17191b" fill-opacity=".045" font-family="Georgia,'Times New Roman',serif" font-size="184" font-weight="700">86</text>
   <g fill="#b51224">
     <rect x="476" y="18" width="5" height="5"/>
     <rect x="1173" y="167" width="5" height="5"/>
